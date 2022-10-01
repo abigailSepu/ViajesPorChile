@@ -16,13 +16,11 @@ body{
     opacity: 0.9;
     color: #FFFFFF;
 }
-
 /* Sección ¿Quiénes Somos?*/
 
 .sec-quienessomos i{
     padding-top: 3px;
 }
-
 
 /* Destacados */
 
@@ -75,6 +73,10 @@ body{
 @media (max-width:760px){
     .navbar-brand{
         padding-left: 15px;
+    }
+    .nav-link{
+        font-weight: bold;
+        color: #FFFFFF;
     }
     .sec-footer h2{
         font-size: 20px;
