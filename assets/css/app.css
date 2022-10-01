@@ -5,17 +5,38 @@ body{
     background-color: #000000;
 }
 
+/*Barra de Navegación*/
+
 .navbar img{
     height: 30px;
 }
 
-.sec-quienessomos hr{
-    border-top: 2px solid #0DCAF0; 
-}
+/* Sección ¿Quiénes Somos?*/
 
 .sec-quienessomos i{
     padding-top: 3px;
 }
+
+
+/* Destacados */
+
+.sec-destacados h5{
+    font-size: 20px;
+}
+.sec-destacados p{
+    font-size: 15px;
+}
+.sec-destacados img{
+    height: 150px;
+    object-fit: cover;
+}
+/* General */
+
+.sec-hr{
+    border-top: 2px solid #0DCAF0; 
+}
+
 .justify{
     text-align: justify;
 }
+
