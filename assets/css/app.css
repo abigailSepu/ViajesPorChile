@@ -30,6 +30,25 @@ body{
     height: 150px;
     object-fit: cover;
 }
+
+/*Footer*/
+
+.sec-footer{
+    background-color: #0DCAF0;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.sec-footer h2{
+    font-size: 25px;
+}
+.sec-footer i{
+    font-size: 30px;
+    
+}
+
+
 /* General */
 
 .sec-hr{
@@ -39,4 +58,19 @@ body{
 .justify{
     text-align: justify;
 }
+
+@media (max-width:760px){
+    .navbar-brand{
+        padding-left: 15px;
+    }
+
+    .sec-footer h2{
+        font-size: 20px;
+    }
+    .sec-footer i{
+        font-size: 20px;
+        
+    }
+}
+
 
