@@ -1,0 +1,11 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.navbar img{
+    height: 30px;
+
+}
