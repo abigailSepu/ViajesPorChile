@@ -7,5 +7,15 @@ body{
 
 .navbar img{
     height: 30px;
+}
 
+.sec-quienessomos hr{
+    border-top: 2px solid #0DCAF0; 
+}
+
+.sec-quienessomos i{
+    padding-top: 3px;
+}
+.justify{
+    text-align: justify;
 }
