@@ -11,6 +11,12 @@ body{
     height: 30px;
 }
 
+.nav-black{
+    background-color: #000000;
+    opacity: 0.9;
+    color: #FFFFFF;
+}
+
 /* Sección ¿Quiénes Somos?*/
 
 .sec-quienessomos i{
@@ -45,9 +51,9 @@ body{
 }
 .sec-footer i{
     font-size: 30px;
-    
+    text-decoration: none;
+    color: #FFFFFF;
 }
-
 
 /* General */
 
@@ -59,18 +65,23 @@ body{
     text-align: justify;
 }
 
+
+@media (max-width:992px){
+    .sec-footer h2{
+        padding-right: 4rem;
+    }
+}
+
 @media (max-width:760px){
     .navbar-brand{
         padding-left: 15px;
     }
-
     .sec-footer h2{
         font-size: 20px;
+        padding-right: 18px;
     }
     .sec-footer i{
         font-size: 20px;
-        
     }
 }
-
 

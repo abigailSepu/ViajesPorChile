@@ -173,20 +173,26 @@
             <h2 class="mt-5 text-center">CONTACTO</h2>
             <hr class="sec-hr">
             <div>
-                <form>
+                <form id="formulario" class="needs-validation" novalidate>
                     <div class="mb-3">
                         <label for="FormularioNombre" class="form-label">Nombre</label>
-                        <input type="texto" class="form-control" id="FormularioNombre" required minlength="10" maxlength="50">
+                        <input type="text" class="form-control" id="FormularioNombre" required minlength="10" maxlength="50">
+                        <div class="valid-feedback">Campo correcto</div>
+                        <div class="invalid-feedback">Complete el nombre</div>
                     </div>
                     <div class="mb-3">
                         <label for="FormularioAsunto" class="form-label">Asunto</label>
-                        <input type="texto" class="form-control" id="FormularioAsunto" required minlength="1" maxlength="50">
+                        <input type="text" class="form-control" id="FormularioAsunto" required minlength="1" maxlength="50">
+                        <div class="valid-feedback">Campo correcto</div>
+                        <div class="invalid-feedback">Complete el asunto</div>
                     </div>
                     <div class="mb-3">
                         <label for="FormularioMensaje" class="form-label">Mensaje</label>
                         <textarea rows="3" class="form-control" id="FormularioMensaje" required minlength="1" maxlength="500"></textarea>
+                        <div class="valid-feedback">Campo correcto</div>
+                        <div class="invalid-feedback">Complete el mensaje</div>
                     </div>
-                    <button type="submit" class="btn btn-info">Enviar</button>
+                    <button type="submit" class="btn btn-info" id="enviarCorreo">Enviar</button>
                 </form>
             </div>
         </section>
@@ -194,19 +200,33 @@
     </main>
 
     <!-- Footer -->
-    <footer class="sec-footer mt-5">
+    <footer class="sec-footer mt-5 ps-5 pe-5">
         <div class="row">
             <div class="col-6 col-md-5">
                 <h2 class="fw-bold text-end">Viajes Chile</h2>
             </div>
             <div class="col-6 col-md-7">
-                <i class="fa-brands fa-square-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-square-twitter"></i>
-                <i class="fa-brands fa-square-facebook"></i>
+                <a href="https://github.com/abigailSepu/ViajesPorChile" target="_blank"
+                data-bs-toggle="tooltip" data-placement="top" title="GitHub Viajes Chile">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank"
+                data-bs-toggle="tooltip" data-placement="top" title="LinkedIn Viajes Chile">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/?lang=es" target="_blank"
+                data-bs-toggle="tooltip" data-placement="top" title="Twitter Viajes Chile">
+                    <i class="fa-brands fa-square-twitter"></i>
+                </a>
+                <a href="https://es-la.facebook.com/    " target="_blank"
+                data-bs-toggle="tooltip" data-placement="top" title="Facebook Viajes Chile">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a> 
             </div>
         </div>
     </footer>
+
+    
 
     <!-- Bootstrap -->
     <script
